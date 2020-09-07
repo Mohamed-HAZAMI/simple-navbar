@@ -10,19 +10,17 @@ export const Nav = () => {
     return (
         <>
         <Style matches={matches} click={click}>
-            {console.log("test",matches)}
-            {console.log("click",click)}
             <section>               
                <img src={require("../assed/react_logo.png")} alt="error"/>
                <div onClick={() =>{setClick(!click)}}>
                   <FontAwesomeIcon icon={faAlignJustify} />
                </div>
-               <ul>
-                   <li>Home</li>
-                   <li>About</li>
-                   <li>Contact</li>
-                   <li>Help</li>
-               </ul>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Helps</li>
+                </ul>
             </section>
         </Style>     
         </>
