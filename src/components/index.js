@@ -23,7 +23,6 @@ export const Nav = () => {
                 </ul>
             </section>
         </Style>     
-        {/* oeishglisrhgiueshirughser */}
         </>
     )
 }
