@@ -103,6 +103,7 @@ li:nth-child(4) {
     color:#fff;
     font-size:20px;
 }
+/* qivhwisld */
 img {
     width:80px;
 }
